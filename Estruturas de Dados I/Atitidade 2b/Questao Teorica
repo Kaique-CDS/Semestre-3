@@ -1,0 +1,28 @@
+PARTE A – QUESTÕES TEÓRICAS
+1. Explique a diferença entre vetor e matriz, considerando estrutura e aplicação.
+Vetor (Array Unidimensional): É uma estrutura linear contendo uma única dimensão, 
+Os elementos são organizados em uma "linha" contínua.
+
+Aplicação: Ideal para armazenar listas simples de itens do mesmo tipo, 
+como a pontuação de jogadores em um campeonato, uma lista de idades ou nomes.
+
+Matriz (Array Multidimensional): É uma estrutura com duas ou mais dimensões (linhas e colunas),
+ formando uma grade ou tabela.
+Aplicação: Útil para dados tabulares ou espaciais, como uma planilha financeira,
+ o tabuleiro de um jogo de xadrez ou o mapeamento de pixels em uma imagem.
+
+2. Qual é a complexidade de acesso a um elemento em um vetor? Justifique.
+
+Acesso: A complexidade de tempo é $O(1)$ (tempo constante).
+Justificativa: Como os vetores alocam um bloco contíguo de memória e todos os elementos possuem exatamente
+ o mesmo tamanho em bytes, o endereço de qualquer elemento pode ser calculado instantaneamente 
+ através da fórmula: Endereço Base + (Índice * Tamanho do Tipo). 
+ Portanto, o tempo para acessar o 1º elemento é exatamente o mesmo para acessar o 1000º elemento.
+
+3. Explique o conceito de indexação e sua importância.
+
+Conceito: Indexação é o sistema numérico utilizado para identificar a posição exata de 
+cada elemento dentro de uma estrutura de dados (como vetores e matrizes). 
+Em Java, assim como na maioria das linguagens, a indexação sempre começa em 0.
+Importância: É fundamental porque permite o acesso direto e imediato a um valor específico sem a necessidade de procurar ou
+percorrer todos os itens anteriores na estrutura de dados, garantindo eficiência e velocidade na execução dos programas.
